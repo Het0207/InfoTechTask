@@ -1,0 +1,38 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .toolbar button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .toolbar button.active {
+    background-color: #ccc;
+  }
+  
+  .editor {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #008080;
+    color: white;
+  }
+  

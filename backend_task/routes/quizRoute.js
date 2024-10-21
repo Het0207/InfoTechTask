@@ -7,4 +7,6 @@ router.post("/quiz", quizController.generateQuiz);
 
 router.post("/submitQuiz", quizController.submitQuiz);
 
+router.get("/history", quizController.getQuizHistory);
+
 module.exports = router;
